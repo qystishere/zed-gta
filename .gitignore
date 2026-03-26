@@ -1,3 +1,5 @@
+target/
+*.wasm
 node_modules/
 *.exp
 *.lib

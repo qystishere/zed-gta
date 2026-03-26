@@ -1,6 +1,6 @@
 # zed-gta
 
-Syntax highlighting for GTA San Andreas data files in [Zed](https://zed.dev).
+Syntax highlighting and formatting for GTA San Andreas data files in [Zed](https://zed.dev).
 
 ## Supported formats
 

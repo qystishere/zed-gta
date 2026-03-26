@@ -20,3 +20,7 @@ path = "ipl"
 repository = "https://github.com/qystishere/tree-sitter-gta"
 commit = "04f5c5fa93aa91c35556a8a73431a7f34a190b4b"
 path = "dat"
+
+[language_servers.gta-lsp]
+name = "GTA LSP"
+languages = ["GTA IDE", "GTA IPL", "GTA DAT"]
