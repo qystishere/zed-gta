@@ -1,0 +1,5 @@
+name = "GTA IDE"
+grammar = "gta_ide"
+path_suffixes = ["ide", "IDE"]
+line_comments = ["# "]
+tab_size = 2

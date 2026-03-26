@@ -1,0 +1,22 @@
+id = "gta"
+name = "GTA"
+description = "GTA San Andreas data file support (.ide, .ipl, .dat)."
+version = "0.0.1"
+schema_version = 1
+authors = ["qystishere <qystishere@users.noreply.github.com>"]
+repository = "https://github.com/qystishere/zed-gta"
+
+[grammars.gta_ide]
+repository = "https://github.com/qystishere/tree-sitter-gta"
+commit = "04f5c5fa93aa91c35556a8a73431a7f34a190b4b"
+path = "ide"
+
+[grammars.gta_ipl]
+repository = "https://github.com/qystishere/tree-sitter-gta"
+commit = "04f5c5fa93aa91c35556a8a73431a7f34a190b4b"
+path = "ipl"
+
+[grammars.gta_dat]
+repository = "https://github.com/qystishere/tree-sitter-gta"
+commit = "04f5c5fa93aa91c35556a8a73431a7f34a190b4b"
+path = "dat"
