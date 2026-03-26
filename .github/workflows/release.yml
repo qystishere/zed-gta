@@ -50,11 +50,11 @@ jobs:
 
       - name: Rename binary (unix)
         if: runner.os != 'Windows'
-        run: cp target/${{ matrix.target }}/release/gta-lsp ${{ matrix.asset }}
+        run: cp server/target/${{ matrix.target }}/release/gta-lsp ${{ matrix.asset }}
 
       - name: Rename binary (windows)
         if: runner.os == 'Windows'
-        run: cp target/${{ matrix.target }}/release/gta-lsp.exe ${{ matrix.asset }}
+        run: cp server/target/${{ matrix.target }}/release/gta-lsp.exe ${{ matrix.asset }}
 
       - uses: actions/upload-artifact@v4
         with:
